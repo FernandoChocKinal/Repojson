@@ -13,7 +13,7 @@ export const esRoleValido = async (role = ' ') => {
 export const existenteEmail = async (correo = ' ') => {
     const existeEmail = await User.findOne({ correo });
 
-    if(!existeEmail){
+    if(existeEmail){
         throw new Error(`El correo ${ correo } ya existe en la base de datos`);
     }
 }
