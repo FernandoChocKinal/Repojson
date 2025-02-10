@@ -1,2 +1,2 @@
-# Repojson
-Clase 27/01/2025
+# Taller
+Laboratorio N°2 - Sistema de Adopción de Mascotas
