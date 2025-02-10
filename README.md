@@ -1,2 +1,2 @@
-# Repojson
-Clase 27/01/2025
+# Laboratorio2Taller
+Laboratorio2Taller (Sistema de Adopción de Mascotas)
