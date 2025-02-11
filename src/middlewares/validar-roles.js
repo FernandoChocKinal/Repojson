@@ -12,10 +12,10 @@ export const tieneRole = (...roles) => {
         if(!roles.includes(req.usuario.role)){
             return res.status(401).json({
                 success: false,
-                msg: `Usuario no autorizado, posee un rol ${req.usuario.role}, los roles autorizados son ${role}`
+                msg: `Usuario NO autorizado, posee un rol ${req.usuario.role}, los roles autorizados son ${roles}`
             })
         }
 
         next();
-    }
+    }    
 }

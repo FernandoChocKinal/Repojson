@@ -89,7 +89,7 @@ export const deleteUser = async (req, res) => {
 
         const user = await User.findByIdAndUpdate(id, { estado: false }, {new: true});
 
-        const authenticatedUser =req.user;
+        const authenticatedUser = req.user;
 
         res.status(200).json({
             success: true,

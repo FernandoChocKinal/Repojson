@@ -29,7 +29,7 @@ const PetSchema = Schema({
     },
 }, {
     timestamps: true,
-    versionKey:  false,
+    versionKey:  false
 });
 
 export default model('Pet', PetSchema);

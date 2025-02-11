@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "67ab5f69f4525dd4cf2864ec"
+  },
+  "name": "Firulais",
+  "description": "Golden retriever",
+  "age": 4,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67ab506f4786f91ac7a82a48"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T14:32:09.208Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T14:32:09.208Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ab60dff4525dd4cf2864f0"
+  },
+  "name": "Fido",
+  "description": "French",
+  "age": 6,
+  "type": "PERRO FRENCH",
+  "keeper": {
+    "$oid": "67ab507f4786f91ac7a82a4c"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-11T14:38:23.340Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T14:47:58.996Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ab614af4525dd4cf2864f4"
+  },
+  "name": "Max",
+  "description": "Perro Salchicha",
+  "age": 6,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67ab507f4786f91ac7a82a4c"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T14:40:10.179Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T14:40:10.179Z"
+  }
+}]

@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Users",
+    "collectionId": "5343e8c6-0559-47b3-99d6-5b6c358a34a6",
+    "dateExported": "2025-02-11T15:18:22.406Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a7baeb18-ecab-4df9-80e6-2b86e6b0c65e",
+            "colId": "5343e8c6-0559-47b3-99d6-5b6c358a34a6",
+            "containerId": "",
+            "name": "deleteUser",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/67ab507f4786f91ac7a82a4c",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2025-02-11T15:03:05.964Z",
+            "modified": "2025-02-11T15:07:44.831Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FiNjc3YjZkZTdjMTBiYWUzOWUzNzUiLCJpYXQiOjE3MzkyODY0MzgsImV4cCI6MTczOTI5MDAzOH0.pqERCy9Or4qipePURrf9os9olYBZems7IwdbegdAqVY"
+                }
+            ]
+        },
+        {
+            "_id": "42c98d13-708e-438d-a34a-96b5977d0d45",
+            "colId": "5343e8c6-0559-47b3-99d6-5b6c358a34a6",
+            "containerId": "",
+            "name": "getUsers",
+            "url": "http://localhost:3000/adoptionSystem/v1/users?limite=10&desde=0",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-02-11T15:10:11.205Z",
+            "modified": "2025-02-11T15:12:40.897Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "limite",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "desde",
+                    "value": "0",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "07a4ec6a-babc-4e6e-bb47-13effbbe2e2f",
+            "colId": "5343e8c6-0559-47b3-99d6-5b6c358a34a6",
+            "containerId": "",
+            "name": "getUserById",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/findUser/67ab50374786f91ac7a82a3c",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-02-11T15:10:36.684Z",
+            "modified": "2025-02-11T15:13:21.425Z",
+            "headers": []
+        },
+        {
+            "_id": "767c075e-e69a-48ce-8d6b-d4251b4ec85a",
+            "colId": "5343e8c6-0559-47b3-99d6-5b6c358a34a6",
+            "containerId": "",
+            "name": "putUser",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/67ab50604786f91ac7a82a44",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2025-02-11T15:10:48.844Z",
+            "modified": "2025-02-11T15:15:01.149Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Luisin\",\n  \"surname\": \"Caldillo\",\n  \"username\": \"carrichocxd\",\n  \"email\": \"luis@gmail.com\",\n  \"password\": \"10203040\",\n  \"profilePicture\": \"\",\n  \"phone\": \"12348888\",\n  \"role\": \"USER_ROLE\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "elZDuFqA6ZB-OGTD3oy7K5IRCsr942BhaoU-W_GOPaP-kL5jCZjqLMUrI6B8eWHDtPai7SWKCOlLpBadYVwP4g"
+}

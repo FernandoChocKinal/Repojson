@@ -1,0 +1,45 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Auth",
+    "collectionId": "60776f44-5616-48da-a12b-3d06a91e8571",
+    "dateExported": "2025-02-11T15:21:43.198Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "36ac27d0-e0ef-44a7-9779-0c71e599a238",
+            "colId": "60776f44-5616-48da-a12b-3d06a91e8571",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:3000/adoptionSystem/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-11T14:28:17.228Z",
+            "modified": "2025-02-11T15:07:18.403Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"carrilloc@gmail.com\",\n  \"password\": \"22442255\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c2605eeb-a668-4c63-a95d-dce985981a8a",
+            "colId": "60776f44-5616-48da-a12b-3d06a91e8571",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://localhost:3000/adoptionSystem/v1/auth/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-11T15:04:57.816Z",
+            "modified": "2025-02-11T15:06:35.824Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Alejandro\",\n  \"surname\": \"Carrilloc\",\n  \"username\": \"carrie\",\n  \"email\": \"carrilloc@gmail.com\",\n  \"password\": \"22442255\",\n  \"profilePicture\": \"\",\n  \"phone\": \"33336666\",\n  \"role\": \"ADMIN_ROLE\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "Vr8Jb8ml0RcHkQyr38utvf7-g7NXs8BNJhiWq_JsJxsP0SSStB-nXoaEymRpm4RnE_-j86CMch915OQ14y3s3Q"
+}
